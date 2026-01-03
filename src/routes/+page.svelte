@@ -1,4 +1,6 @@
+<script>
 
+</script>
 
 
 <div style="width: 100%; text-align: center;">
@@ -10,3 +12,14 @@
 		<iframe style="border-radius:16px; margin-top: 0; margin-bottom: 0;" src="https://open.spotify.com/embed/playlist/3Sl52ulqI80Th6ZdHJBSwJ?utm_source=generator" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 	</div> -->
 </div>
+
+<style>
+	h1 {
+		font-family: "neue-haas-grotesk-display", sans-serif;
+        font-weight: 800;
+		font-size: 4em;
+        font-style: italic;
+	}
+</style>
+
+
