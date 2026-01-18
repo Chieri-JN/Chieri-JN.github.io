@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: "Affigere";
-	src: url("/fonts/XCicero_Affigere/XCicero_Affigere-Regular.woff2") format("woff2");
+	src: url("/fonts/Affigere-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -15,21 +15,70 @@
     --text-size: 1.3em;
     --text-size2: 1.5em;
     --title-size: 12em;
+    --super-big-size: 20em;
     --subtitle-size: 4em;
 
     /* Colors */
     --primary-color: #f15a26;
     --secondary-color: #4b4ea1;
-    --tertiary-color: #a4a7d3;
-    --quaternary-color: #f7a277;
+    --tertiary-color: #a4a7d3; /* light purple */
+    --quaternary-color: #f7a277; /* light orange */
+    --quinary-color: #31397f; /* dark purple */
+    --senary-color: #993521; /* dark orange */
+    --septenary-color: #eff0f8; /* super light purple */
+    --octonary-color: #fddbcc; /* super light orange */
     --black-sub: #1f1d21;
     --white-sub: #f6f6f3;
+    --grey-sub: #d8d8ce;
+
+    /* Spacing scale */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+
+    /* Transitions */
+    --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 
 *{
     background-color: var(--white-sub);
+
+    /* for Firefox */
+    /* scrollbar-width: auto;
+    scrollbar-color: var(--quaternary-color) var(--grey-sub); */
+    
 }
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--grey-sub);
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--quaternary-color);
+    border-radius: 8px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    border-width: 1px;
+  }
+
 
 a {
     color: var(--secondary-color);
