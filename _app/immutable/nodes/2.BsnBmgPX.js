@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/DBzE8Y7K.js";import{f as a,a as r}from"../chunks/DRGcVu0Q.js";var e=a('<div style="width: 100%; text-align: center;"><h1 class="svelte-1uha8ag">Under construction...</h1></div>');function s(t){var o=e();r(t,o)}export{s as component};

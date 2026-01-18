@@ -1,5 +1,5 @@
 node_modules
-
+notes.md
 # Output
 .output
 .vercel
@@ -21,3 +21,5 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
