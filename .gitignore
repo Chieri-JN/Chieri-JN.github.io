@@ -1,5 +1,9 @@
+
+# other stuff
 node_modules
 notes.md
+build.sh
+Makefile
 # Output
 .output
 .vercel

@@ -17,15 +17,15 @@
 <div class="page">
 	<header>
 		<!-- <img src={site} alt="Chieri JN" /> -->
-		<h1 style="width: 100%; text-align: center;">CHIERI-JN</h1>
+		<h1>CHIERI-JN</h1>
 	</header>
-	
+
 	<main>
 		{@render children?.()}
 	</main>
 
 	<footer>
-		<p>Fonts used: <a href="https://xcicero.esad-gv.net/page/affigere/"> Affigere Regular </a> and <a href="https://fonts.google.com/specimen/Neue+Haas+Grotesk+Display"> Neue Haas Grotesk Display </a></p>
+		<p>Fonts used: <a class = "affigere" href="https://xcicero.esad-gv.net/page/affigere/" target="_blank"> Affigere Regular </a> and <a class = "neue-haas" href="https://fonts.adobe.com/fonts/neue-haas-grotesk" target="_blank"> Neue Haas Grotesk Display </a></p>
 	</footer>
 </div>
 
@@ -44,6 +44,28 @@
 		text-align: center;
 		padding: 1rem 0;
 	}
-	
+
+	header {
+		width: 100%;
+		text-align: center;
+	}
+
+	main {
+		flex: 1;
+	}
+
+	footer {
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+	.affigere {
+		font-family: var(--title-font);
+		font-size: 1.3em;
+	}
+
+	.neue-haas {
+		font-family: var(--text-font);
+	}
 
 </style>
