@@ -110,6 +110,8 @@
 		gap: 1rem;
 		align-items: center;
 		font-size: var(--text-size2);
+		font-family: var(--text-font);
+		font-weight: 500;
 	}
 	.nav ul {
 		list-style: none;
