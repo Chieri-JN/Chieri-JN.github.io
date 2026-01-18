@@ -16,6 +16,7 @@
     --text-size2: 1.5em;
     --title-size: 12em;
     --super-big-size: 20em;
+    --logo-size: 2em;
     --subtitle-size: 4em;
 
     /* Colors */
@@ -44,7 +45,17 @@
     --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-
+    /* Image sizes */
+    --tiny-img: 3em;
+    --small-img: 4em;
+    --medium-img: 6em;
+    --large-img: 8em;
+    --xlarge-img: 10em;
+    --xxlarge-img: 12em;
+    --xxxlarge-img: 14em;
+    --xxxxlarge-img: 16em;
+    --xxxxxlarge-img: 18em;
+    --xxxxxxlarge-img: 20em;
 }
 
 
@@ -83,6 +94,8 @@
 a {
     color: var(--secondary-color);
     text-decoration: none;
+
+    
 }
 a:hover {
     color: var(--primary-color);
