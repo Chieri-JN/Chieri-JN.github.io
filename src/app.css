@@ -31,6 +31,7 @@
     --black-sub: #1f1d21;
     --white-sub: #f6f6f3;
     --grey-sub: #d8d8ce;
+    --dark-grey-sub: #2f2739;
 
     /* Spacing scale */
     --space-xs: 4px;
@@ -58,8 +59,12 @@
     --xxxxxxlarge-img: 20em;
 }
 
+html {
+    overflow-y: scroll;
+}
 
 *{
+    /* background-color: var(--dark-grey-sub); */
     background-color: var(--white-sub);
 
     /* for Firefox */
