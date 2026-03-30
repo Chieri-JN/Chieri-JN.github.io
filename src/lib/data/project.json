@@ -1,0 +1,44 @@
+[
+    {
+        "title": "QViz",
+        "year": "2025",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "SQL Query Visualizer",
+        "link": "https://github.com/TylerOgawaWilliams/QueryVisualizer",
+        "tags": ["SQL", "Visualization", "Data Analysis", "Fun"]
+    },
+    {
+        "title": "TracksV",
+        "year": "2026",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "At a high level the project idea is a spotify playlist version history tracker.",
+        "link": "https://github.com/ChieriJN/Spotify-Playlist-Version-History",
+        "tags": ["Spotify", "Data Analysis", "Fun"]
+    },
+    {
+        "title": "Hotkeys: ",
+        "year": "2025",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "Exploratory Data Analysis",
+        "link": "https://github.com/ChieriJN/Hotkeys",
+        "tags": ["Data Analysis", "School"]
+    },
+    {
+        "title": "Intervelo",
+        "year": "2026",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "Architecto, quae, sit! Accusamus aliquam architecto commodi cumque debitis deleniti deserunt doloribus\n            exercitationem ipsum itaque, iusto laborum nemo officiis, porro quae qui quibusdam recusandae reiciendis\n            rem repellendus repudiandae sit suscipit.",
+        "link": "https://github.com/Chieri-JN/Intervelo",
+        "tags": ["Computer Vision", "School"]
+
+    },
+    {
+        "title": "Code Vis",
+        "year": "2024",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "Accusantium facere facilis labore libero maiores placeat quam quas quidem vitae voluptatem. A animi\n            dolore ducimus eius eveniet, labore, nam nesciunt omnis placeat quos recusandae reiciendis repudiandae\n            sed soluta vero?",
+        "link": "https://github.com/ChieriJN/Maxime-minus-perferendis-voluptate",  
+        "tags": []
+    }
+    
+]

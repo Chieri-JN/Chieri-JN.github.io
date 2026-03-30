@@ -8,31 +8,28 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "LeagueSpartan";
+	src: url("/fonts/LeagueSpartan-VF.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
 :root {
     /* Text & Fonts */
-	--text-font: "neue-haas-grotesk-display", sans-serif;
+	  /* --text-font: "neue-haas-grotesk-display", sans-serif; */
+    --text-font: "LeagueSpartan", sans-serif;
     --title-font: "Affigere", "neue-haas-grotesk-display", sans-serif;
+    --atl-text-font: "LeagueSpartan", sans-serif;
     --text-size: 1.3em;
     --text-size2: 1.5em;
     --title-size: 12em;
-    --super-big-size: 20em;
+    /* --super-big-size: 30em; */
+    --super-big-size: 26vw;
     --logo-size: 2em;
     --subtitle-size: 4em;
-
-    /* Colors */
-    --primary-color: #f15a26;
-    --secondary-color: #4b4ea1;
-    --tertiary-color: #a4a7d3; /* light purple */
-    --quaternary-color: #f7a277; /* light orange */
-    --quinary-color: #31397f; /* dark purple */
-    --senary-color: #993521; /* dark orange */
-    --septenary-color: #eff0f8; /* super light purple */
-    --octonary-color: #fddbcc; /* super light orange */
-    --black-sub: #1f1d21;
-    --white-sub: #f6f6f3;
-    --grey-sub: #d8d8ce;
-    --dark-grey-sub: #2f2739;
-
+        
     /* Spacing scale */
     --space-xs: 4px;
     --space-sm: 8px;
@@ -40,11 +37,7 @@
     --space-lg: 24px;
     --space-xl: 32px;
     --space-2xl: 48px;
-
-    /* Transitions */
-    --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --space-3xl: 64px;
 
     /* Image sizes */
     --tiny-img: 3em;
@@ -57,20 +50,95 @@
     --xxxxlarge-img: 16em;
     --xxxxxlarge-img: 18em;
     --xxxxxxlarge-img: 20em;
+
+    /* Colours */ 
+    --black-sub: #1f1d21;
+    --white-sub: #f6f6f3;
+    --grey-sub: #d8d8ce;
+    --dark-grey-sub: #1d1725;
+    
+    /* Light Mode Colors */
+    --primary-color: #f15a26;
+    --secondary-color: #4b4ea1;
+    --tertiary-color: #a4a7d3; /* light purple */
+    --quaternary-color: #f7a277; /* light orange */
+    --quinary-color: #31397f; /* dark purple */
+    --senary-color: #993521; /* dark orange */
+    --septenary-color: #eff0f8; /* super light purple */
+    --octonary-color: #fddbcc; /* super light orange */
+
+    /* Dark Mode Colors */
+    --primary-color-dark: #cb2027;
+    --secondary-color-dark: #2b3185;
+    --tertiary-color-dark: #515eaa;
+    --quaternary-color-dark: #e54a55;
+    --quinary-color-dark: #1f2238;
+    --senary-color-dark: #8e1a1d;
+    --septenary-color-dark: #aeb1d9;
+    --octonary-color-dark: #eda6a6;
+
+    /* Transitions */
+    --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html {
     overflow-y: scroll;
 }
 
-*{
-    /* background-color: var(--dark-grey-sub); */
-    background-color: var(--white-sub);
+/* Dark mode: override variables when html has .dark */
+html.dark {
+    --primary-color: var(--primary-color-dark);
+    /* need to adjust secondary colour for dark mode, temporarily use 4th colour */
+    --secondary-color: var(--quaternary-color-dark);
+    --tertiary-color: var(--tertiary-color-dark);
+    --quaternary-color: var(--quaternary-color-dark);
+    --quinary-color: var(--quinary-color-dark);
+    --senary-color: var(--senary-color-dark);
+    --septenary-color: var(--octonary-color-dark);
+    --octonary-color: var(--septenary-color-dark);
+}
 
-    /* for Firefox */
-    /* scrollbar-width: auto;
-    scrollbar-color: var(--quaternary-color) var(--grey-sub); */
-    
+html.dark * {
+    color: inherit;
+}
+
+html.dark p,
+html.dark .nav a {
+    color: var(--septenary-color-dark);
+}
+
+html.dark a {
+    color: var(--tertiary-color-dark)
+}
+
+html.dark .nav a:hover,
+html.dark .nav a.active {
+    color: var(--quaternary-color-dark);
+}
+
+html.dark .nav .title.active {
+    color: var(--primary-color-dark);
+}
+
+html.dark h1,
+html.dark h2 {
+    color: var(--primary-color-dark);
+}
+
+html.dark h3 {
+    color: var(--septenary-color-dark);
+}
+
+html,
+body {
+    background-color: var(--white-sub);
+}
+
+html.dark,
+html.dark body {
+    background-color: var(--dark-grey-sub);
 }
 
 /* Scrollbar styling */
@@ -97,15 +165,18 @@ html {
 
 
 a {
+    font-family: var(--text-font);
+    font-size: var(--text-size);
     color: var(--secondary-color);
     text-decoration: none;
-
-    
 }
+
 a:hover {
     color: var(--primary-color);
     text-decoration: underline;
 }
+
+
 
 body {
 	min-height: 100vh;
@@ -129,10 +200,21 @@ h2 {
 	color: var(--primary-color);
 }
 
+h3 {
+	font-family: var(--text-font);
+	font-weight: 800;
+	font-size: var(--subtitle-size);
+	font-style: normal;
+	color: var(--primary-color);
+}
+
 
 p {
     font-family: var(--text-font);
     font-size: var(--text-size);
-    color: var(--black-sub);
-
+    color: var(--secondary-color);
 }
+
+/*p.emphasis {*/
+/*    color: var(--primary-color)*/
+/*}*/

@@ -1,11 +1,13 @@
 <script>
 	import banner from '$lib/assets/banner.svg';
+	import Title from '$lib/components/Title.svelte';
 </script>
 
 
 <div style="width: 100%; text-align: center;">
 	<div>
-		<img src={banner} alt="Chieri Nnadozie" />
+		<!-- <img src={banner} alt="Chieri Nnadozie" /> -->
+		<Title size={""} />
 	</div>
 	<!-- <h1 style="font-size: var(--super-big-size);">CHIERI-JN</h1> -->
 	<!-- <h3>In the mean time, check out what I'm currently listening to:</h3>
@@ -22,10 +24,4 @@
 
 <style>
 	
-
-	img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
 </style>
