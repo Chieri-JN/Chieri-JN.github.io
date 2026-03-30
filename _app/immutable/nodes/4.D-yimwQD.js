@@ -1,0 +1,1 @@
+import{a as r,f as a}from"../chunks/C_kQUigK.js";import"../chunks/DVPbdL4K.js";var e=a('<div style="width: 100%; text-align: center;"><h2 class="Title">Under construction...</h2></div>');function p(t){var o=e();r(t,o)}export{p as component};
