@@ -5,6 +5,8 @@
 	import Image from '$lib/components/Image.svelte';
 	import starP from '$lib/assets/star-purple.svg';
 	import starR from '$lib/assets/star-red.svg';
+	import assymStarP from '$lib/assets/assym-star-purple.svg';
+	import assymStarR from '$lib/assets/assym-star-red.svg';
 	import '../app.css';
 
 	let { children } = $props();
@@ -28,12 +30,12 @@
 	const STORAGE_KEY = 'colourMode';
 	let colourMode = $state('light');
 	let starRotateKey = $state(0);
-	let starRotateStepDeg = $state(90);
-	let starNextDirection = $state(1); // 1 = clockwise first, then alternates.
+	let starRotateStepDeg = $state(-90);
+	let starNextDirection = $state(-1); // 1 = clockwise first, then alternates.
 
 	function toggleStarRotation() {
 		starRotateKey += 1;
-		starRotateStepDeg = starNextDirection * 90;
+		starRotateStepDeg = starNextDirection * -180;
 		starNextDirection *= -1;
 	}
 
@@ -104,10 +106,10 @@
 							}}
 						>
 							<Image
-								src={colourMode === 'light' ? starP : starR}
+								src={colourMode === 'light' ? assymStarP : assymStarR}
 								alt="toggle theme star"
 								className="toggle-star"
-								size="1.5em"
+								size="1.75em"
 								spinOnHover={false}
 								rotateKey={starRotateKey}
 								rotateStepDeg={starRotateStepDeg}

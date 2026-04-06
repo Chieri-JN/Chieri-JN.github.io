@@ -11,7 +11,7 @@
     </h2>
     <div>
         <p>
-            Projects I have worked on for school, work, or fun. You can find the code for most of them on GitHub.
+            Projects I have worked on.
         </p>
         <div class="projects">
             {#each projects as p}

@@ -18,17 +18,17 @@
 
 :root {
     /* Text & Fonts */
-	  /* --text-font: "neue-haas-grotesk-display", sans-serif; */
     --text-font: "LeagueSpartan", sans-serif;
     --title-font: "Affigere", "neue-haas-grotesk-display", sans-serif;
-    --atl-text-font: "LeagueSpartan", sans-serif;
-    --text-size: 1.3em;
-    --text-size2: 1.5em;
-    --title-size: 12em;
+    --atl-text-font: "neue-haas-grotesk-display", sans-serif;
+    /* convert text sizes to vw units */
+    --text-size: 1.3vw;
+    --text-size2: 1.5vw;
+    --title-size: 12vw;
     /* --super-big-size: 30em; */
     --super-big-size: 26vw;
-    --logo-size: 2em;
-    --subtitle-size: 4em;
+    --logo-size: 2vw;
+    --subtitle-size: 4vw;
         
     /* Spacing scale */
     --space-xs: 4px;
@@ -60,14 +60,24 @@
     /* Light Mode Colors */
     --primary-color: #f15a26;
     --secondary-color: #4b4ea1;
-    --tertiary-color: #a4a7d3; /* light purple */
-    --quaternary-color: #f7a277; /* light orange */
-    --quinary-color: #31397f; /* dark purple */
-    --senary-color: #993521; /* dark orange */
-    --septenary-color: #eff0f8; /* super light purple */
-    --octonary-color: #fddbcc; /* super light orange */
+    --tertiary-color: #a4a7d3; 
+    --quaternary-color: #f7a277; 
+    --quinary-color: #31397f; 
+    --senary-color: #993521; 
+    --septenary-color: #eff0f8; 
+    --octonary-color: #fddbcc;  
 
     /* Dark Mode Colors */
+    --primary-color-dark: #cb2027;
+    --secondary-color-dark: #2b3185;
+    --tertiary-color-dark: #515eaa;
+    --quaternary-color-dark: #e54a55;
+    --quinary-color-dark: #1f2238;
+    --senary-color-dark: #8e1a1d;
+    --septenary-color-dark: #aeb1d9;
+    --octonary-color-dark: #eda6a6;
+
+    /* Temp Dark Mode Colours */
     --primary-color-dark: #cb2027;
     --secondary-color-dark: #2b3185;
     --tertiary-color-dark: #515eaa;
