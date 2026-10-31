@@ -8,20 +8,28 @@
         "tags": ["SQL", "Visualization", "Data Analysis", "Fun"]
     },
     {
-        "title": "TracksV",
-        "year": "2026",
-        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
-        "description": "At a high level the project idea is a spotify playlist version history tracker.",
-        "link": "https://github.com/ChieriJN/Spotify-Playlist-Version-History",
-        "tags": ["Spotify", "Data Analysis", "Fun"]
-    },
-    {
-        "title": "Hotkeys: ",
+        "title": "Spotify Playlist Version Control",
         "year": "2025",
         "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
-        "description": "Exploratory Data Analysis",
+        "description": "Platform allowing users to save, preview, and reload versions of their Spotify playlists. Uses a SQL database and Python Flask backend to handle API calls, with a tree-like structure to track and efficiently retrieve version history.",
+        "link": "https://github.com/ChieriJN/Spotify-Playlist-Version-History",
+        "tags": ["Python", "Flask", "Spotify API", "SQL", "Figma"]
+    },
+    {
+        "title": "HotKeys",
+        "year": "2025",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "Interactive visualization tool showing character frequencies and keystroke habits. Encodes data via a keyboard heatmap using D3 and Svelte, combining bigrams/trigrams with character trajectories to create meaningful user interactions.",
         "link": "https://github.com/ChieriJN/Hotkeys",
-        "tags": ["Data Analysis", "School"]
+        "tags": ["D3", "Svelte", "SvelteKit", "TypeScript", "Data Visualization"]
+    },
+    {
+        "title": "GoPhoto",
+        "year": "2025",
+        "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
+        "description": "Full-stack platform connecting photographers and customers. Features SQL-backed user profiles, AWS photo storage, on-site messaging, Stripe payments, and separate client/photographer views — generating 20+ connections and $1000+ in revenue.",
+        "link": "#",
+        "tags": ["TypeScript", "Next.js", "React", "React Native", "SQL", "AWS", "Stripe"]
     },
     {
         "title": "Intervelo",
@@ -30,15 +38,13 @@
         "description": "Architecto, quae, sit! Accusamus aliquam architecto commodi cumque debitis deleniti deserunt doloribus\n            exercitationem ipsum itaque, iusto laborum nemo officiis, porro quae qui quibusdam recusandae reiciendis\n            rem repellendus repudiandae sit suscipit.",
         "link": "https://github.com/Chieri-JN/Intervelo",
         "tags": ["Computer Vision", "School"]
-
     },
     {
         "title": "Code Vis",
         "year": "2024",
         "image": "https:/dig.cmu.edu/datavis-fall-2024/labs/2/images/empty.svg",
         "description": "Accusantium facere facilis labore libero maiores placeat quam quas quidem vitae voluptatem. A animi\n            dolore ducimus eius eveniet, labore, nam nesciunt omnis placeat quos recusandae reiciendis repudiandae\n            sed soluta vero?",
-        "link": "https://github.com/ChieriJN/Maxime-minus-perferendis-voluptate",  
+        "link": "https://github.com/ChieriJN/Maxime-minus-perferendis-voluptate",
         "tags": []
     }
-    
 ]

@@ -3,17 +3,19 @@
     import starP from '$lib/assets/star-purple.svg'
     import starR from '$lib/assets/star-red.svg'
     import Image from '$lib/components/Image.svelte';
+    import { animate, scroll } from "motion"
 
     let {size = ''} = $props();
     let first = "CHIERI";
     let second = "JN";
+    
 </script>
 
 <div class="title-container">
     <span class="title-text">
         <h3 class={`title ${size}`}> {first} </h3>
         <span class="title-star title-star--light">
-            <Image src={starP} alt="star" className="star" />
+            <Image src={starP} alt="star" className="star" /> 
         </span>
         <span class="title-star title-star--dark">
             <Image src={starR} alt="star" className="star" />

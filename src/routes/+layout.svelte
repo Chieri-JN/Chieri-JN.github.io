@@ -8,6 +8,7 @@
 	import assymStarP from '$lib/assets/assym-star-purple.svg';
 	import assymStarR from '$lib/assets/assym-star-red.svg';
 	import '../app.css';
+	
 
 	let { children } = $props();
 

@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { animate, scroll } from "motion"
+
     let {
         src,
         alt = '',
@@ -35,6 +37,12 @@
         currentDegree += rotateStepDeg ?? 0;
         lastRotateKey = rotateKey;
     });
+
+    // animate(
+    //     ".image",
+    //     { rotate: 90 },
+    //     { type: "spring", repeat: Infinity, repeatDelay: 0.2 }
+    // )
 
 </script>
 

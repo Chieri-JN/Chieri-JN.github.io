@@ -5,3 +5,11 @@ export type ProjectType = {
     description: string;
     link: string;
 }
+
+export type PositionType = {
+    title: string;
+    company: string;
+    location: string;
+    description: string;
+    date: string;
+}

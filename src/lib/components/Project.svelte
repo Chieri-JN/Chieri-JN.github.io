@@ -26,7 +26,7 @@
     }
     .project-container:hover {
         transform: scale(1.05);
-        box-shadow: 0 0 20px 0 var(--quaternary-color);
+        /* box-shadow: 0 0 20px 0 var(--quaternary-color); */
     }
     .project-title {
         font-family: var(--text-font);

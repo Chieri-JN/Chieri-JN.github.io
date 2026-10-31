@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Software Engineer Intern - Distributed Systems & Applied AI",
+        "company": "Netflix",
+        "location": "Los Gatos, CA",
+        "description": "Architected a two-component system enabling oncall engineers to manage live ad products entirely from Slack. Constructed new infrastructure connecting a Slack bot frontend (TypeScript) to an LLM-powered backend agent (Java). Designed and created tooling with guardrails giving the agent the ability to read request forms and create necessary DB entities. Reduced average end-to-end workflow time by 85% and eliminated a manual multi-step process.",
+        "date": "05/2026 - 08/2026"
+    },
+    {
+        "title": "Software Engineer Intern - Backend",
+        "company": "LinkedIn",
+        "location": "Mountain View, CA",
+        "description": "Led the redesign of the Applicant Forecasting system for LinkedIn's Jobs-Marketplace Core Product Engineering Team. Designed a new agnostic system in Java reducing onboarding time for TensorFlow ML models, cutting development time by 25%. Created dynamic data fetching infrastructure reducing unnecessary API calls and Pinot table queries by 40%. Set up Kafka events to track resource coverage from gRPC API calls and configured data analysis with Spark.",
+        "date": "05/2025 - 08/2025"
+    },
+    {
+        "title": "Head TA - Great Practical Ideas for Computer Scientists",
+        "company": "School of Computer Science, Carnegie Mellon University",
+        "location": "Pittsburgh, PA",
+        "description": "Instructed 100+ college and pre-college students on data structures and algorithms in Python. Led lectures for 200+ computer science students on fundamental programming tools such as Git, Linux/Unix, and Bash. Designed new course material for AI tools and techniques.",
+        "date": "06/2024 - 05/2026"
+    }
+    {
+        "title": "Software Engineer Research Assistant - Data Visualization",
+        "company": "Data Interaction Group Lab, Human Computer Interaction Institute",
+        "location": "Pittsburgh, PA",
+        "description": "Contributed to the creation of Skeleton, a tool allowing users to create data visualizations navigable by assistive tools. Created a graphical user interface that integrates an algorithm translating visual designs into usable graph data structures. Co-authored the Skeleton research paper for IEEE VIS 2026 and authored a research poster for IEEE VIS 2024.",
+        "date": "01/2024 - 10/2024"
+    },
+    {
+        "title": "Intro to Computing ",
+        "company": "School of Computer Science, Carnegie Mellon University",
+        "location": "Pittsburgh, PA",
+        "description": "Instructed 200+ college and pre-college students on the fundamentals of computing in Python. Led office hours with guided program testing and debugging.",
+        "date": "06/2024 - 05/2026"
+    }
+]
