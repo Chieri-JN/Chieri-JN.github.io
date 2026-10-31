@@ -21,7 +21,7 @@
         padding: 2em;
         border: 2px solid var(--grey-sub);
         border-radius: 1em;    
-        box-shadow: 0 0 10px 0 var(--secondary-color);
+        /*box-shadow: 0 0 10px 0 var(--secondary-color);*/
         transition: all 0.2s ease-in-out;
     }
     .project-container:hover {

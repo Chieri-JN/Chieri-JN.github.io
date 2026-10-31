@@ -41,7 +41,7 @@
         border-radius: 5%;
         /* border: 5px solid var(--tertiary-color); */
         border: 3px solid var(--septenary-color);
-        box-shadow: 0 0 10px 0 var(--secondary-color);
+        /*box-shadow: 0 0 10px 0 var(--secondary-color);*/
 
         transition: all 0.2s ease-in-out;
 	}
